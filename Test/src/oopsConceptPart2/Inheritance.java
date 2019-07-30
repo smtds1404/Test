@@ -10,6 +10,7 @@ public class Inheritance extends Bmw{
 		Inheritance obj = new Inheritance();
 		obj.name();
 		obj.color();
+		stop();
 		
 			
 		Car obj1 = new Car();

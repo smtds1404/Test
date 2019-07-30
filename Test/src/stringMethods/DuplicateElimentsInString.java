@@ -25,7 +25,24 @@ public class DuplicateElimentsInString {
 			System.out.println("No Duplicate found");
 		}
 		
+		
+		int arr[]={10,20,50,30,40};
 
+		int min;
+		for(i=0;i<arr.length;i++){
+
+		for(int j=i;j<arr.length-1;j++)
+		if(arr[j]>arr[j+1])
+			{
+			min=arr[j];
+			arr[j]=arr[j+1];
+			arr[j+1]=min;
+
+		}
+		}
+		for(i=0;i<arr.length;i++){
+		System.out.println(arr[i]);
+		}
 	}
 
 }

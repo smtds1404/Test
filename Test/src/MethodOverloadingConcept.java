@@ -26,8 +26,8 @@ public class MethodOverloadingConcept {
 
 	}
 
-	public void titan(int x, int y, int z) {
-		System.out.println(i + y + z);
+	public void titan(int i, int y, int z) {
+		System.out.println( this.i + y + z );
 
 	}
 

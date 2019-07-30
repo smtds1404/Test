@@ -15,11 +15,13 @@ public class CharOcc {
 			}if(!temp.contains(String.valueOf(s.charAt(i)))){
 			if(count>0){
 				System.out.print(s.charAt(i)+""+count);
-				temp=temp+s.charAt(i);
+				temp=temp+s.charAt(i)+count;
 			}
 			}
 			count=0;
 		}
+		System.out.println();
+		System.out.println(temp);
 		
 	}
 
