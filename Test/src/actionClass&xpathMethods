@@ -8,7 +8,7 @@ action.clickAndHold(driver.findElement(By.xpath("//*[@id='test']"))).moveToEleme
 driver.findElement(By.xpath("//input[@class='test']"));
 driver.findElement(By.xpath("//input[contains(@class,'test')]")).sendKeys("test");
 driver.findElement(By.xpath("//input[starts-with(@id,'test_')]")).click();
-driver.findElement(By.xpath("//input[ends-with(@in,test')]")).sendKeys("test");
+driver.findElement(By.xpath("//input[ends-with(@id,test')]")).sendKeys("test");
 driver.findElement(By.xpath("//input[contains(text(),'test')]")).sendKeys("test");
 
 }
