@@ -1,6 +1,6 @@
 public actionClass{
 
-public stattic void main(String args[]){
+public stattic void main(String[] args){
 
 
 
